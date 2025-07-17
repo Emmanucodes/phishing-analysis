@@ -8,36 +8,37 @@ This project is part of my cybersecurity learning journey, focusing on how phish
 
 ## 🎯 Goal
 
-To understand how phishing emails are structured, how malicious attachments work, and how to analyze them safely using free tools and techniques.
+To understand how phishing emails are structured, how **malicious PDF attachments** work, and how to analyze them safely using free tools and techniques.
 
 ---
 
 ## 🛠 Tools I Plan to Use
 
-- 🧪 [VirusTotal](https://virustotal.com) – to scan attachments
-- 🧵 `strings` command – to inspect file content
+- 🧪 [VirusTotal](https://virustotal.com) – to scan the PDF file
+- 🐍 `pdfid.py` & `pdf-parser.py` – for static analysis of the PDF
 - 🖥️ Virtual Machine – for safe analysis (I’m using Windows VM)
 - 📧 Email header inspection (manual or tool-based)
-- 🔍 Optional: Sandboxing tools later (e.g., Any.Run, Hybrid Analysis)
+- 🔍 Optional: Sandboxing tools (e.g., Any.Run, Hybrid Analysis)
 
 ---
 
 ## 🕵️‍♂️ Current Progress
 
-- ✅ Found a phishing email sample with a `.lnk` attachment
+- ✅ Found a phishing email sample with a `.pdf` attachment
 - ✅ Opened the file in a **safe virtual machine**
-- 🔄 Planning to scan the file on VirusTotal
-- 🔄 Will inspect the `.lnk` file with `strings` and check for PowerShell commands or IOCs
-- 🔄 Will document the email headers and body content
+- ✅ Scanned the file using VirusTotal
+- 🔄 Planning to run static analysis using `pdfid.py` and `pdf-parser.py`
+- 🔄 Will extract any embedded links or scripts
+- 🔄 Will document the email headers and phishing intent
 
 ---
 
 ## 📘 What I’ve Learned So Far
 
-- `.lnk` files (Windows shortcuts) can be used to run hidden malicious scripts
-- It’s important to always analyze suspicious files in an isolated environment
-- VirusTotal is a great starting point for scanning unknown files
-- Phishing emails can appear to come from trusted sources
+- PDF files can contain malicious scripts, links, or embedded actions
+- Even “simple-looking” documents can lead to phishing websites or malware
+- Always inspect suspicious files in a controlled, isolated environment
+- Email spoofing can make phishing messages look trustworthy
 
 ---
 
@@ -53,4 +54,3 @@ Aspiring SOC Analyst | Cybersecurity Enthusiast
 ## ⚠️ Disclaimer
 
 This project is for educational purposes only. Do not run suspicious files on your main device. Always use a VM or sandbox environment.
-
