@@ -22,7 +22,7 @@ This project showcases a structured phishing email analysis performed on a suspi
 
 - 📄 [View Full Report (PDF)](./1_Phishing_Email_Analysis_Report.pdf)
  — Full professional report
-- 📁 [View Screenshots Folder](./z_screenshots/)
+- 📁 [View Screenshots Folder](./2_screenshots/)
  — Visual evidence (headers, body, scan results)
 
 
