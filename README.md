@@ -20,8 +20,10 @@ This project showcases a structured phishing email analysis performed on a suspi
 
 ## 📂 Contents
 
-- `Phishing_Email_Analysis_Report.pdf` — Full professional report
-- `screenshots/` — Visual evidence (headers, body, scan results)
+- 📄 [View Full Report (PDF)](./1_Phishing_Email_Analysis_Report.pdf)
+ — Full professional report
+- 📁 [View Screenshots Folder](./z_screenshots/)
+ — Visual evidence (headers, body, scan results)
 
 
 ## 📚 What I Learned
