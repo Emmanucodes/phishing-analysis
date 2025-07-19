@@ -1,56 +1,47 @@
-# 📧 Phishing Email Analysis (Beginner-Level Project)
+# 🛡️ Phishing Email Analysis: Ripple Impersonation
 
-This project is part of my cybersecurity learning journey, focusing on how phishing emails work and how to analyze them safely. I’m documenting my process as I learn the skills required to become a SOC Analyst.
+This project showcases a structured phishing email analysis performed on a suspicious message impersonating CoinDesk and Ripple. It demonstrates real-world threat hunting using email headers, link analysis, domain checks, and email authentication results (SPF, DKIM, DMARC).
 
-> 🚧 This project is currently in progress. I will update this README as I go deeper into the analysis.
+## 📑 Report Summary
 
----
+- **Email Subject:** More benefits from Ripple with the Allocation Program
+- **Phishing Tactic:** Brand Impersonation, Blending (legit + malicious URLs)
+- **Target:** Crypto-focused users
+- **Malicious Domain:** `mail123ripple.net`
+- **Goal:** Credential theft or malware delivery
 
-## 🎯 Goal
+## 🧪 Tools & Techniques
 
-To understand how phishing emails are structured, how **malicious PDF attachments** work, and how to analyze them safely using free tools and techniques.
+- Header analysis (manual inspection)
+- DNS & WHOIS lookup
+- URL inspection (VirusTotal, urlscan.io)
+- Authentication verification (SPF, DKIM, DMARC)
+- Virtual machine environment
 
----
+## 📂 Contents
 
-## 🛠 Tools I Plan to Use
+- `Phishing_Email_Analysis_Report.pdf` — Full professional report
+- `screenshots/` — Visual evidence (headers, body, scan results)
 
-- 🧪 [VirusTotal](https://virustotal.com) – to scan the PDF file
-- 🐍 `pdfid.py` & `pdf-parser.py` – for static analysis of the PDF
-- 🖥️ Virtual Machine – for safe analysis (I’m using Windows VM)
-- 📧 Email header inspection (manual or tool-based)
-- 🔍 Optional: Sandboxing tools (e.g., Any.Run, Hybrid Analysis)
 
----
+## 📚 What I Learned
 
-## 🕵️‍♂️ Current Progress
+- How phishing campaigns blend real and fake links to bypass filters.
+- The importance of email authentication standards.
+- Manual techniques and tooling to analyze suspicious emails safely.
 
-- ✅ Found a phishing email sample with a `.pdf` attachment
-- ✅ Opened the file in a **safe virtual machine**
-- ✅ Scanned the file using VirusTotal
-- 🔄 Planning to run static analysis using `pdfid.py` and `pdf-parser.py`
-- 🔄 Will extract any embedded links or scripts
-- 🔄 Will document the email headers and phishing intent
+## 🔒 Keywords
 
----
-
-## 📘 What I’ve Learned So Far
-
-- PDF files can contain malicious scripts, links, or embedded actions
-- Even “simple-looking” documents can lead to phishing websites or malware
-- Always inspect suspicious files in a controlled, isolated environment
-- Email spoofing can make phishing messages look trustworthy
+`Phishing`, `Email Security`, `SOC Analyst`, `Threat Hunting`, `Cybersecurity Portfolio`, `SPF`, `DMARC`, `DKIM`
 
 ---
 
-## 🧑‍💻 Author
+### 👤 Author
 
 **Emmanuel Ajayi**  
-Aspiring SOC Analyst | Cybersecurity Enthusiast  
-[LinkedIn](https://www.linkedin.com/in/emmanuel-ajayi-gbenga)  
-[GitHub](https://github.com/Emmanucodes)
+Cybersecurity Analyst | Email Threat Detection | SOC Intern  
+📫 Connect with me on [LinkedIn](https://www.linkedin.com/in/emmanuel-ajayi-gbenga)
 
 ---
 
-## ⚠️ Disclaimer
-
-This project is for educational purposes only. Do not run suspicious files on your main device. Always use a VM or sandbox environment.
+📌 *This project is part of my cybersecurity portfolio to demonstrate hands-on investigation of email threats.*
