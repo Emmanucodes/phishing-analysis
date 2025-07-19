@@ -20,10 +20,10 @@ This project showcases a structured phishing email analysis performed on a suspi
 
 ## 📂 Contents
 
-- 📄 1_Phishing Email Analysis Report.pdf  
+- 📄 Phishing Email Analysis Report.pdf  
   Full professional report documenting the phishing email investigation
 
-- 📁 2_screenshots  
+- 📁 screenshots  
   Folder containing visual evidence including header analysis, email body, scan results, and WHOIS lookup
 
 
