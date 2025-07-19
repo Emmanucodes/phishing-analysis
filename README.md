@@ -20,17 +20,19 @@ This project showcases a structured phishing email analysis performed on a suspi
 
 ## 📂 Contents
 
-- 📄 [View Full Report (PDF)](./1_Phishing_Email_Analysis_Report.pdf)
- — Full professional report
-- 📁 [View Screenshots Folder](./2_screenshots/)
- — Visual evidence (headers, body, scan results)
+- 📄 1_Phishing Email Analysis Report.pdf  
+  Full professional report documenting the phishing email investigation
+
+- 📁 2_screenshots  
+  Folder containing visual evidence including header analysis, email body, scan results, and WHOIS lookup
 
 
 ## 📚 What I Learned
 
-- How phishing campaigns blend real and fake links to bypass filters.
-- The importance of email authentication standards.
-- Manual techniques and tooling to analyze suspicious emails safely.
+- How phishing campaigns blend legitimate and malicious links to bypass filters.
+- Why email authentication standards (SPF, DKIM, DMARC) are critical.
+- How to manually investigate suspicious emails using real-world tools.
+
 
 ## 🔒 Keywords
 
@@ -38,12 +40,15 @@ This project showcases a structured phishing email analysis performed on a suspi
 
 ---
 
-### 👤 Author
+## 👤 Author
 
 **Emmanuel Ajayi**  
-Cybersecurity Analyst | Email Threat Detection | SOC Intern  
-📫 Connect with me on [LinkedIn](https://www.linkedin.com/in/emmanuel-ajayi-gbenga)
+Aspiring SOC Analyst | Cybersecurity Enthusiast | Threat Hunter in Training  
+🔗 [LinkedIn: emmanuel-ajayi-gbenga](https://www.linkedin.com/in/emmanuel-ajayi-gbenga)
 
 ---
 
-📌 *This project is part of my cybersecurity portfolio to demonstrate hands-on investigation of email threats.*
+📌 *This project is part of my cybersecurity portfolio to demonstrate hands-on investigation of real-world phishing threats. It reflects my continuous growth as an aspiring SOC Analyst.*
+
+
+
